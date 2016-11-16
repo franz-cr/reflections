@@ -1,0 +1,28 @@
+//Plain text file creation of tutorial.
+
+//Q01: 
+//FRZ: TBD
+
+//Q02: How could having easy access to the entire history of a file make
+//you a more efficient programmer in the long term?
+//FRZ: No answer, just exercise.
+
+//Q03: What do you think are the pros and cons of manually choosing when to create a 
+//commit, like you do in Git, vs having versions automatically saved, like 
+//Google Docs does?
+//FRZ: Human factor error, we forget to commit.
+
+//Q04: Why do you think some version control systems, like Git, allow saving multiple 
+//files in one commit, while others, like Google Docs, treat each file separately?
+//FRZ: Not coding control in mind.
+
+//Q5: How can you use the commands git log and git diff to view the history of files?
+//FRZ: "git log" shows the commit's log history, and "git diff" shows the differences 
+//between 2 distinct commits.
+
+//Q6: How might using version control make you more confident to make changes that  
+//could break something?
+//FRZ: Since you can roll back t previous versions.
+
+//Q7: Now that you have your workspace set up, what do you want to try using Git for?
+//FRZ: Download a project and start working.
