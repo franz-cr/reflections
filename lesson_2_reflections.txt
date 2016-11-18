@@ -1,5 +1,41 @@
-Q1: What happens when you initialize a repository? Why do you need to do it?
-A1: Creates a new repository to keep files safe.
+Q01: What happens when you initialize a repository? Why do you need to do it?
+FRZ: Creates a new repository to keep files safe.
 
-Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
-A2: Staging is intermediate area and under control. A working directory is just a folder with files in it.
+Q02: How is the staging area different from the working directory and the repository? What value do you think it offers?
+FRZ: Staging is intermediate area and under control. A working directory is just a folder with files in it.
+
+Q03: How can you use the staging area to make sure you have one commit per logical change?
+FRZ: Move file to stage right after making a change to any file edited, leaving no room
+	 for forgetting to stage a file after updating it.
+
+Q04: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+FRZ: For experimenting new things, explore ideas, and wanting to not affect a working version.
+
+Branch history diagram:
+master/coins
+| * 98aeb88 FEAT: Make game easier by fragmenting asteroids into 2 instead of 3.
+|/* << EASY_MODE
+* 7a46eb1 FIX: Add delay when firing the machine gun
+* 3884eab Add color
+* 3e42136 now using requestAnimationFrame
+* 4035769 frame interval was set wrong after game was paused
+* 25ede83 a couple missing ends with the ipad version
+* df03538 I can't spell 'screen' apparently :)
+| * 354dfdd Make ships able to spawn on coins
+| * 0c6daf1 Make it possible to collect coins
+| * a3c0ae4 Create helper functions
+| * 656b02e First pass at adding coins
+|/* << COINS
+* b0678b1 Revert controls
+* f19cb1b Fix typo in space
+
+
+Q05: How do the diagrams help you visualize the branch structure?
+FRZ: Because show a graphical view of the paths of the master and the commits where 
+     the branches source from.
+
+Q06: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+FRZ: Merging diverted paths of code into the single one.
+
+Q07: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+FRZ: Automatic merge can lead to unseen errors.
